@@ -4,4 +4,7 @@
 /data/temp/
 /.venv/
 /log/
+/src/experiment_scripts/data/
+src/experiment_scripts/log/
+
 
