@@ -7,4 +7,5 @@
 /src/experiment_scripts/data/
 src/experiment_scripts/log/
 
+*.xml
 
