@@ -13,6 +13,7 @@ RETRIEVED_DATA_PATH = PROJECT_ROOT / "data" / "retrieved"
 RERANKED_DATA_PATH = PROJECT_ROOT / "data" / "reranked"
 PROMPTING_DATA_PATH = PROJECT_ROOT / "data" / "prompting"
 MODEL_PATH = PROJECT_ROOT / "models"
+LOG_DATA_PATH = PROJECT_ROOT / "log"
 
 
 if __name__ == "__main__":

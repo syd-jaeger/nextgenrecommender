@@ -1,6 +1,6 @@
 from src.config import RERANKED_DATA_PATH
 
-BATCH_OUTPUT_FILE = RERANKED_DATA_PATH / 'batch_output_gpt-4o_movielens_v02.jsonl'
+BATCH_OUTPUT_FILE = RERANKED_DATA_PATH / 'batch_output_gpt-5_v02.jsonl'
 
 def get_total_tokens_from_batch_output(filepath):
     """

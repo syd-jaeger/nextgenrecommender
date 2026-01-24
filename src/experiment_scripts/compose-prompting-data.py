@@ -7,10 +7,10 @@ from src.config import RETRIEVED_DATA_PATH, PROCESSED_DATA_PATH, RAW_DATA_PATH, 
 
 # --- CONFIGURATION ---
 # Adjust these paths to match your folder structure
-CANDIDATES_PATH = RETRIEVED_DATA_PATH / 'sports_outdoors_5core/reduced_candidates_non_zero_recall.csv'
+CANDIDATES_PATH = '../../notebooks/temp.csv'
 TRAIN_PATH = PROCESSED_DATA_PATH / 'sports_and_outdoors_global_temporal_split/train.csv'
 METADATA_PATH = RAW_DATA_PATH / 'meta_sports_and_outdoors.jsonl'
-OUTPUT_PATH = PROMPTING_DATA_PATH / 'sports_outdoors_prompting-data.jsonl'
+OUTPUT_PATH = PROMPTING_DATA_PATH / 'sports_outdoors_prompting-data-5-user-test.jsonl'
 
 # Constraint: How many past interactions to use as context?
 # Too many will confuse the LLM or exceed token limits.
